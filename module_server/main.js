@@ -4,7 +4,14 @@ const fs = require('fs')
 const querystring = require("querystring")
 const handle  = {}
 handle["/"]  = function (response) {
-  response.end("index")
+  setTimeout(function() {
+      console.log( "timeout 5000")
+      let start = new Date().getTime()
+      while ( (new Date().getTime() ) < start + 2000 ) {
+
+      }
+      response.end("index")
+  }, 5000)
 }
 
 handle["/about"]  = function (response) {
