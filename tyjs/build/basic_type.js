@@ -1,3 +1,4 @@
+"use strict";
 // 布尔类型
 var isDone = false;
 // 数字类型
@@ -20,7 +21,7 @@ var c = Color.Blue;
 var random = 123;
 var minxList = [1, 2, 'name'];
 // 没有返回值 void
-var unable = null;
+var unable = undefined;
 function f() {
     console.log('void function');
 }

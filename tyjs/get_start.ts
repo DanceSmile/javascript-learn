@@ -28,7 +28,7 @@ console.log(r)
  // 类
  class Student{
     copyName:String
-    constructor(public name:string, public age, public sex){
+    constructor(public name:string, public age: number, public sex: number){
         this.copyName = name
     }
  }

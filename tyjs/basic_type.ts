@@ -23,7 +23,7 @@ let random : any = 123
 let minxList: any[] = [1, 2, 'name']
 
 // 没有返回值 void
-let unable :void = null
+let unable :void = undefined
 function f():void {
     console.log('void function')
 }
@@ -37,7 +37,6 @@ function loop():never {
     while(true){
     }
 }
-
 // 类型断言
 let someValue: any = "any some value"
 let strlen: number = (<String>someValue).length

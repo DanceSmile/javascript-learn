@@ -1,3 +1,4 @@
+"use strict";
 // 第一个 typescript 文件
 // 类型注解
 function get_start(person) {
