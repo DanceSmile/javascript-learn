@@ -5,13 +5,13 @@ function get_start(person) {
     return 'hello ' + person;
 }
 var user = 'Jane User';
-var r = get_start(user);
-console.log(r);
+var r_user = get_start(user);
+console.log(r_user);
 function greeterInterface(person) {
     return 'interface: hello ' + person.name + ', age is ' + person.age;
 }
-r = greeterInterface({ name: 'zero', age: '19' });
-console.log(r);
+var rest = greeterInterface({ name: 'zero', age: '19' });
+console.log(rest);
 // 类
 var Student = /** @class */ (function () {
     function Student(name, age, sex) {

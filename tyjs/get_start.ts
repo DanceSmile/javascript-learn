@@ -7,9 +7,9 @@
 }
 
 let user  = 'Jane User'
-let r = get_start(user)
+let r_user = get_start(user)
 
-console.log(r)
+console.log(r_user)
 
 
  // 接口
@@ -20,9 +20,9 @@ console.log(r)
  function greeterInterface(person: Person) {
     return 'interface: hello ' + person.name + ', age is ' + person.age
  }
- r = greeterInterface({name: 'zero', age: '19'})
+ let rest = greeterInterface({name: 'zero', age: '19'})
 
- console.log(r)
+ console.log(rest)
 
 
  // 类
